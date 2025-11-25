@@ -7,7 +7,7 @@ import path from "path"
 import { attachRoutingWithLogger } from "./utils/logger/logs.js";
 import helmet from "helmet";
 import { rateLimit } from 'express-rate-limit'
-//hiii
+//hi
 const bootstrap = async (app, express) => {
     //global-middleware
     app.use(express.json());
